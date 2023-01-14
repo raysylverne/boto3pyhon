@@ -22,10 +22,19 @@ print(x[::-1])
 # index 0  1  2  3   4   5
 data = [1, 2, 3, 4, 'a', 10.4, 2]
 
-
+# iterate through a list
 for x in data:
     print(x)
-
+'''
+output will be: 
+1
+2
+3
+4
+a
+10.4
+2
+'''
 # use append() to add object at the end of a list
 data.append(34)
 print(data)
